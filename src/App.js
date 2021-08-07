@@ -1,12 +1,10 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom';
-import Navbar from './componet/Navbar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import RequireAuth from './authentication/RequireAuth';
-
 
 const App = () => {
   return (
@@ -26,8 +24,8 @@ const App = () => {
           </Route>
         </Switch>
       </Router>
-     
-      </div>
+
+    </div>
   );
 }
 

@@ -8,7 +8,6 @@ const RequireAuth = ({ children }) => {
     useEffect(() => {
         let index = localStorage.getItem("loginUserIndex");
         if (index !== null) {
-            console.log("geoing to set authrised as true");
             setIsAuthorised(true)
         }
         setLoading(false);
