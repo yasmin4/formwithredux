@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+*{
+  box-sizing: border-box;
+ }
+.root{
+  
+  height: 100%;
+  background-color: lightblue;
+}
+
+.formContainer{
+  border-radius: 5px;
+  background-color:white;
+  margin-left: 400px;
+  margin-top: 100px;
+  padding:25px;
+  width:60%;
+  height: 50%;
+}
+h3{
+  text-align: center;
+}
+.btnRedirect{
+ margin-left: 150px;
+margin-bottom: 300px;
+}
+input[type=button]{
+  width:200px;
+  border-radius: 50px;
+
+}
+.showtable{
+  background-color:whitesmoke;
+  margin: auto;
+  margin-top: 80px;
+  width:95%;
+}
+.btnLogout{
+  margin-left: 1000px;
+  margin-top: 50px;
+ 
+}
+.customtable{
+  border-collapse: collapse;
+  border-radius: 10px  !important;
+}
+/* input[type=text],input[type=email],input[type=number],input[type=password],select{
+  width:50%;
+} */
+
+
